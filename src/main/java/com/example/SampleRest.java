@@ -13,6 +13,6 @@ public class SampleRest {
     @GetMapping(value = "/motd")
     public String getMessage() {
         LOG.info("Entering getMessage");
-        return "Hello World";
+        return "Hello World I'm Back";
     }
 }
